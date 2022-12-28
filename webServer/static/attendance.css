@@ -1,0 +1,266 @@
+#students{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-items: center;
+  padding-bottom: 5em;
+}
+
+.student {
+  border: 4px ridge #059aba;
+  background-color: #7fe6fc;
+  width: 75%;
+  text-align: center;
+  margin: 5px;
+  font: small-caps 1.5em bold fantasy;
+  padding: 3px;
+  cursor: pointer;
+}
+
+.student_opts {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 2em;
+}
+
+#byGrade {
+  position: fixed;
+  bottom: 0px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  justify-items: center;
+  background-color: grey;
+}
+.gradeButton {
+  border: 2px solid black;
+  background-color: #f2ff7a;
+  width: 80%;
+  text-align: center;
+  margin: 5px;
+  font: small-caps 1.2em bold fantasy;
+  padding-top: 0.25em;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#query {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.queries {
+  border: thick double blue;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+.studentName{
+
+}
+
+.classTime{
+  font-size: small;
+}
+
+#signIn{
+  position: fixed;
+  top: 1%;
+  left: 1%;
+  width:98%;
+  height: 98%;
+  background-color: palegoldenrod;
+  border: 5px inset black;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+.bigButton {
+  width: 10em;
+  height: 5em;
+  background-color: lightgrey;
+  border: 4px outset grey;
+  border-radius: 10px;
+}
+.bigButton:hover {
+  border: 4px inset grey;
+}
+.bigButtonTitle {
+  font: small-caps 1.5em bold fantasy;
+}
+.bigButtonInfo {
+  font: italic 1.1em bold fantasy;
+}
+
+.mediumButton {
+  width: 8em;
+  height: 1.5em;
+  background-color: lightgrey;
+  border: 4px outset grey;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:0.5em;
+  cursor: pointer;
+}
+.mediumButton:hover {
+  border: 4px inset grey;
+}
+
+#cancelSignInButton {
+  width: 5em;
+  height: 2em;
+  background-color: lightgrey;
+  border: 4px outset grey;
+  border-radius: 10px;
+  font: small-caps 1.2em bold fantasy;
+}
+
+.closeButton {
+  position:fixed;
+  right:5em;
+  width: 5em;
+  height: 2em;
+  background-color: lightgrey;
+  border: 4px outset grey;
+  border-radius: 10px;
+  font: small-caps 1.2em bold fantasy;
+}
+
+.iPadButton {
+  width: 8em;
+  height: 5em;
+  background-image: linear-gradient(to bottom right, aquamarine, #ffbf00);
+  border-color: black;
+  border-style: solid;
+  border-width: 5px 10px 5px 10px;
+  border-radius: 10px;
+  padding-top:0.5em;
+
+  transition-property: height;
+  transition-duration: 1s;
+}
+.chromeBookButton {
+  width: 75%;
+  height: 75%;
+  background-image: linear-gradient(to bottom left, pink, #cbffc0);
+  border-color: green;
+  border-style: outset;
+  border-width: 10px 5px 20px 5px;
+  border-radius: 5px;
+  padding-top:1em;
+
+  transition-property: height;
+  transition-duration: 1s;
+}
+.laptopButton {
+  width: 75%;
+  height: 75%;
+  background-image: linear-gradient(to bottom left, pink, #cbffc0);
+  border-color: black;
+  border-style: outset;
+  border-width: 10px 5px 20px 5px;
+  border-radius: 5px;
+  padding-top:1em;
+
+  transition-property: height;
+  transition-duration: 1s;
+}
+.yogaButton {
+  width: 75%;
+  height: 75%;
+  background-image: linear-gradient(to bottom left, pink, #cbffc0);
+  border-color: blue;
+  border-style: outset;
+  border-width: 10px 5px 20px 5px;
+  border-radius: 5px;
+  padding-top:1em;
+
+  transition-property: height;
+  transition-duration: 1s;
+}
+.rpiStripButton {
+  width: 75%;
+  height: 75%;
+  background-image: linear-gradient(to bottom left, khaki, #cbffc0);
+  border-color: red;
+  border-style: outset;
+  border-width: 10px 5px 20px 5px;
+  border-radius: 5px;
+  padding-top:1em;
+
+  transition-property: height;
+  transition-duration: 1s;
+}
+.iPadWindow {
+  width: 15em;
+  height: 12em;
+  background-color: darkseagreen;
+  border: 4px outset black;
+  border-radius: 10px;
+  padding-top:1em;
+
+  transition-property: all;
+  transition-duration: 1s;
+}
+
+.inventoryWindow {
+  position: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  top: 2%;
+  bottom: 2%;
+  width: 96%;
+  height: 96%;
+  background-color: lightgreen;
+  text-align: center;
+  border: 5px inset lightblue;
+  border-radius: 10px;
+}
+
+.itemList {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  grid-gap: 2em;
+}
+
+.item {
+  background-color: lightblue;
+}
+
+.messageWindow {
+  position: fixed;
+  margin: auto;
+  width: 90%;
+  height: 90%;
+  background-color: lightpink;
+  text-align: center;
+  border: 1px solid black;
+}
+.message{
+  position: fixed;
+  margin: auto;
+  width: 80%;
+  top: 5em;
+  left: 2em;
+  font: small-caps 2em bold fantasy;
+  border: 1px solid black;
+}
+
+table {
+  border: 1px solid black;
+}
+th {
+  border: 3px inset purple;
+}
+td {
+  border: 3px inset green;
+}
+tr:hover {
+  background-color: yellow;
+}
+
+select {
+  height: 2em;
+}
