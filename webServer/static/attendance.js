@@ -124,7 +124,7 @@ class confirmWindow{
     this.parentDivId = parentDivId;
     this.divId = divId;
     this.ws = ws;
-    this.iPads = iPads; //from iPads.js
+    //this.iPads = iPads; //from iPads.js
 
     this.button = {};
 
