@@ -25,7 +25,6 @@ python3 -m venv venv
 activate virtual envrionment
 ```console
 . venv/bin/activate
-. venv
 ```
 
 # Install tinydb
